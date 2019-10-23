@@ -1,0 +1,149 @@
+h1 {
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #576CA8;
+  font-size: 100px;
+  display: inline;
+}
+
+h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #E36414;
+  font-size: 30px;
+  display: inline;
+}
+
+
+h3 {
+  font-family: 'Abel', sans-serif;
+  color: #576CA8;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.3), rgba(0, 0, 20, 0.3)),
+  url('images/background.jpg');
+  line-height: 1.0;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  width: 0 auto;
+  justify-content: center;
+}
+
+.outer-left-card {
+  width: 210px;
+  margin-left: 100px;
+  margin-right: 25px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-left-card {
+  width: 210px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-right-card {
+  width: 210px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.outer-right-card {
+  width: 210px;
+  margin-left: 25px;
+  margin-right: 100px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.card-img {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 200px;
+}
+
+.light {
+  color: white;
+}
+
+.dark {
+  color: black;
+}
+
+.card-info {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 50px;
+  position: absolute;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bio {
+  margin: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.profile_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.foot {
+  background-color: rgba(0, 0, 0, 0);
+  color: #E36414;
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+}
+
+.main_header
+{
+    color: #E9EDDE;
+    text-align: center;
+    width: 200px;
+    margin: 20 auto;
+  }
+
+  i:hover {
+  color: #D84A05;
+  }
+
+  .orange {
+    color: #E36414
+  }
+
+  .big {
+    font-size: 50px;
+  }
